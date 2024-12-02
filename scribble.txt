@@ -6,9 +6,10 @@ sussy - 42, 10
 
 
 TODO:
-2. Do I need to pad or extend the cgm times also? How to use time-series data?
+2. Do I need to pad or extend the cgm times also? How to use time-series data? it is mentioned in pdf to put in fixed width format
 3. why are we putting lunch calories in training dataset? rhea
 5. Darsh work on PPT and Report
+6. Time between meals is not in index after viome
 
 Improvements:
 1. for cgm use gru or lstm
