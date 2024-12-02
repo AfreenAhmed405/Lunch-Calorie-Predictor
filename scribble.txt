@@ -6,17 +6,10 @@ sussy - 42, 10
 
 
 TODO:
-1. Put all preprocessing data in a function so that it can be reused for test data
 2. Do I need to pad or extend the cgm times also? How to use time-series data?
-3. why are we putting lunch calories in training dataset? rhea?
-4. What if the person did not eat breakfast/lunch? Consider later: use the two hour check
+3. why are we putting lunch calories in training dataset? rhea
 5. Darsh work on PPT and Report
 
-
-Dish steps:
--- Viome preprocessing
--- merge training datasets (IMG --> CMG --> LABEL --> VIOME)
--- image preprocessing
--- cgm preprocessing: time series data to min max and mean representation???
--- encode race column
--- scale all columns in merged df
+Improvements:
+1. for cgm use gru or lstm
+4. What if the person did not eat breakfast/lunch? Consider later: use the two hour check
