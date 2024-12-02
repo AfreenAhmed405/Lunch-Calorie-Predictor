@@ -1,0 +1,9 @@
+Missing values:
+breakfast - 8, 9
+lunch - 15, 4
+b + l - 32, 3
+
+
+TODO:
+1. Put all preprocessing data in a function so that it can be reused for test data
+2. Do I need to pad or extend the cgm times also?
