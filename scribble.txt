@@ -6,10 +6,14 @@ sussy - 42, 10
 
 
 TODO:
-2. Do I need to pad or extend the cgm times also? How to use time-series data? it is mentioned in pdf to put in fixed width format
 5. Darsh work on PPT and Report
+6. preprocess cgm for test -- important
 
 Improvements:
 1. for cgm use gru or lstm
 4. What if the person did not eat breakfast/lunch? Consider later: use the two hour check
 5. viome data use dimensionality reduction
+6. deepen the model
+
+Iters:
+1. extrapolation for cgm levels instead of padding
