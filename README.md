@@ -11,10 +11,8 @@
 - [Methodology](#methodology)  
   - [Data Preprocessing](#data-preprocessing)  
   - [Feature Engineering](#feature-engineering)  
-  - [Model Architecture](#model-architecture)  
-- [Usage](#usage)  
+  - [Model Architecture](#model-architecture)   
 - [Results](#results)  
-- [License](#license)  
 
 ---
 
