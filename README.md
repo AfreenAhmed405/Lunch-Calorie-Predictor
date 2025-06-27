@@ -66,18 +66,27 @@ The dataset consists of data from over 40 participants spanning up to 9 days eac
 
 ---
 
-## Usage
-
-Instructions to run the model, preprocess data, and train MultimodalNet will be added here.
-
----
-
 ## Results
 
-(Include here summary of model performance metrics, accuracy improvements, or example predictions.)
+### Model Performance Metrics
+
+The model was evaluated on a test dataset consisting of data from 9 subjects. The primary performance metric used was the Root Mean Squared Relative Error (RMSRE), with the model achieving a final training loss of **0.3339**. This indicates a reasonable degree of accuracy in predicting lunch calorie intake.
+
+### Discussion
+
+- **Interpretation of Results:**  
+  The multimodal neural network effectively combines CGM data, meal images, and demographic information to estimate caloric intake with promising accuracy. The achieved training loss suggests that the model has successfully learned patterns linking these modalities to calorie values.
+
+- **Limitations:**  
+  - *Limited Dataset Size:* With only 40 participants, each contributing up to 10 days of data, the dataset size restricts the model’s generalizability and may increase overfitting risk.  
+  - *Potential Overfitting:* The complex multimodal architecture, while powerful, may be prone to overfitting due to limited data.  
+  - *Dependency on Multiple Data Sources:* Reliance on three distinct modalities (CGM, images, demographics) makes the model sensitive to data availability and quality, which could challenge deployment in real-world scenarios.
+
+- **Potential Applications:**  
+  - Personalized nutrition planning tailored to individual metabolic responses.  
+  - Improved diabetes management through accurate calorie prediction and glucose regulation support.  
+  - Enhanced weight management strategies with precise caloric intake estimation.  
+  - Contribution to nutritional science research by providing deeper insights into the interaction between meal composition, individual characteristics, and caloric intake.
 
 ---
 
-## License
-
-Specify the license under which this project is released.
